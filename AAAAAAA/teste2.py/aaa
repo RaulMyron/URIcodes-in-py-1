@@ -1,0 +1,27 @@
+K = int(input())
+L = int(input())
+M = int(input())
+N = int(input())
+D = int(input())
+
+batidos = 0
+contador = 0
+teste = 0
+
+for i in range(D):
+  if(i%K==0 and i>=K):
+    batidos+=1
+    print("k", batidos)
+  if(i%L==0 and i>=L):
+    batidos+=1
+    print("l", batidos)
+  if(i%M==0 and i>=M):
+    batidos+=1
+    print("m", batidos)
+  if(i%N==0 and i>=N):
+    batidos+=1
+    print("n", batidos)
+
+print(contador)
+print(batidos)
+print(batidos+contador)
